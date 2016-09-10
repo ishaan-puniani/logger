@@ -1,6 +1,6 @@
 var logger = {
-	trace:function(roindId,module,data){
-		console.log("trace: "+ roindId+ " - module: ",data );
+	trace:function(game,roindId,module,method,data){
+		console.log("trace: "+game+"-"+ roindId+ " - "+ module+" : "+method+" : ",data );
 	}
 }
 
